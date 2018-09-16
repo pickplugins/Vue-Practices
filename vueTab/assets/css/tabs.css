@@ -1,0 +1,35 @@
+
+.tabs{}
+.tabs .tab-navs{
+    padding: 0;
+    margin: 0;
+}
+.tabs .tab-navs li{
+    display: inline-block;
+    background: #ddd;
+    padding: 4px 10px;
+    float: left;
+    border-right: 1px solid #6c757d;
+    cursor: pointer;
+}
+
+.tabs .tab-navs li:last-child{
+    border-right: 1px solid rgba(0,0,0,0);
+}
+
+.tabs .tab-navs li.active{
+    background: #17a2b8;
+}
+
+
+.tabs .tab-details{
+    clear: both;
+    display: block;
+}
+
+
+
+
+
+
+
