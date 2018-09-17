@@ -26,8 +26,6 @@ Vue.component('accordion',{
             });
 
 
-
-
         }
     }
 
@@ -36,7 +34,7 @@ Vue.component('accordion',{
 
 
 Vue.component('accordionitem',{
-    template: '<div :class="accordionClasses" @click="toggleAccordion"><div class="header"><slot name="header"></slot></div> <div class="content"><slot></slot></div> </div>',
+    template: '<div :class="accordionClasses" ><div class="header" @click="toggleAccordion"><slot name="header"></slot></div> <div class="content"><slot></slot></div> </div>',
     props:{
         name: {required: true},
     },
