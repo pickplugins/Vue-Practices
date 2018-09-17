@@ -1,0 +1,34 @@
+
+.accordion{}
+
+.accordion .item{
+    margin: 1px 0;
+}
+.accordion .header{
+    background: #ddd;
+    padding: 10px;
+    cursor: pointer;
+}
+.accordion .is-open .content{
+    display: block;
+    padding: 10px;
+    background: #dddddd8a;
+}
+
+.accordion .content{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
